@@ -1,7 +1,21 @@
 // Print Module for arrays 
 
-public class PrintArray {
+/* 
+int[][] NumberArray = {{1,2,3,4},{5,6,7,8}};
+PrintArray.printOutNumberMultiArray(NumberArray);
 
+int[] Numbers = {1,2,3,4,5};
+PrintArray.printOutNumberArray(Numbers);
+
+String[] Strings = {"one", "Two", "Three", "Four", "Five"};
+PrintArray.printOutStringArray(Strings);
+
+String[][] StringsTwoD = {{"one", "Two", "Three",}, {"Four", "Five"}};
+PrintArray.printOutStringMultiArray(StringsTwoD); 
+*/
+
+
+public class PrintArray {
 
     // Single Arrays
 
@@ -20,7 +34,7 @@ public class PrintArray {
     }
 
     // 2D Arrays
-    
+
     public static void printOutNumberMultiArray(int[][] Array) {
 
         for (int i = 0; i < Array.length; i++) {
